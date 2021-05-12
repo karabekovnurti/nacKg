@@ -1,0 +1,113 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+.body {
+	width: 100vw;
+	height: 100vh;
+	background-color: #fff;
+}
+header {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 100%;
+	height: 45px;
+	background-color: #4969c1;
+}
+header .burger {
+	display: flex;
+	flex-flow: column;
+	justify-content: space-around;
+	align-items: center;
+	padding: 5px 0;
+	width: 30px;
+	height: 30px;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-right: 50px;
+	background-color: transparent;
+	cursor: pointer;
+	outline: none;
+}
+
+.burger .burg-line {
+	width: 70%;
+	height: 3px;
+	background-color: black;
+}
+
+.gazeta {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+	height: 45px;
+	background-color: #c4efc2;
+	border-radius: 5px;
+	color: #217c1c;
+	box-shadow: 0 0 5px green;
+	margin: 15px 0 10px 20px;
+}
+
+.main {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 400px;
+	height: auto;
+	padding: 0;
+	background-color: inherit;
+	color: #000;
+	margin: 0 0 200px 20px;
+}
+.about {
+	width: 80%;
+	padding: 5px;
+}
+
+.grades {
+	display: grid;
+	grid-template-columns: 65% 1fr 1fr;
+	grid-template-rows: repeat(10, 42.5px);
+	width: 80%;
+	max-width: 95%;
+}
+
+.grades div {
+	border-bottom: 0.5px solid rgb(78, 75, 75);
+	padding: 10px 0 2px 0;
+	color: #adadad;
+}
+
+.lesson-name,
+.points-title,
+.grade-title {
+	background-color: #c9e4ff;
+	border-top: 1px solid rgb(78, 75, 75);
+	padding-right: 5px;
+}
+
+.grade,
+.points {
+	text-align: center;
+}
+p {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: 5px 0;
+}
+.warning {
+	display: block;
+	color: #c8b7b7;
+	width: 100%;
+	padding: 0 10px 0 0;
+	margin: 0 0 15px 0;
+}
+
+.strong {
+	font-weight: bold;
+}
