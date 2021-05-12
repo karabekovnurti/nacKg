@@ -71,7 +71,7 @@ header .burger {
 .grades {
 	display: grid;
 	grid-template-columns: 65% 1fr 1fr;
-	grid-template-rows: repeat(10, 42.5px);
+	grid-template-rows: repeat(10, 47.5px);
 	width: 80%;
 	max-width: 95%;
 }
